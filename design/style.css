@@ -1,0 +1,244 @@
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body{
+  
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    }
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+/*****
+COLOR
+Pink: hsl(322, 100%, 66%)
+Very Pale Cyan: hsl(193, 100%, 96%)
+Very Dark Cyan: hsl(192, 100%, 9%)
+Grayish Blue: hsl(208, 11%, 55%)
+
+FONTS
+
+### Headings
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 600
+
+
+### Body, Call-to-actions
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400, 700
+
+
+- Mobile: 375px
+- Desktop: 1440px
+*******/
+h1{
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+h2{
+  font-family:'Open Sans' ;
+  font-weight: 400;
+}
+
+nav.nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 5rem;
+  background-image:url(/images/bg-hero-desktop.svg);
+  background-color: hsl(193, 100%, 96%);
+}
+
+main{
+  background-image:url(/images/bg-hero-desktop.svg);
+  background-repeat:no-repeat;
+  display: flex;
+  padding: 4rem 10rem;
+  gap: 5rem;
+  background-color: hsl(193, 100%, 96%);
+}
+.primary-text{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  }
+
+h1{
+  font-size: 4rem;
+  color: hsl(192, 100%, 9%);
+}
+
+.img-mockups{
+  max-width: 70rem;
+}
+
+.btn{
+  font-family: 'Poppins';
+  padding: 1rem 3rem;
+  border-radius: 20px;
+  background-color: #fff;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+}
+
+.getstarted{
+  background-color:hsl(322, 100%, 66%) ;
+  color: #fff;
+  padding: 2 4rem;
+  width: 20rem;
+  margin-top: 5rem;
+}
+.flex{
+  display: flex;
+  margin: 10rem 10rem;
+  gap: 6rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+  padding: 6rem 5rem;
+  border-radius: 15px;
+}
+
+.title{
+  font-size: 3rem;
+  font-family: 'Poppins';
+  color: hsl(192, 100%, 9%);
+}
+
+.text{
+  justify-self: center;
+  align-self: center;
+  padding-left: 6rem;
+  
+}
+
+.img-illustration{
+  max-width: 50rem;
+}
+
+h3{
+  font-family: 'Open Sans';
+  font-weight: 400;
+  color: hsl(208, 11%, 55%);
+  padding-top: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin: 0rem 30rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+  padding: 6rem 8rem ;
+ position: absolute;
+  border-radius: 15px;
+  z-index: 9999;
+ height: 25rem;
+  top: 2600px;
+  bottom: 110px;
+background-color: #fff;
+
+}
+
+.footer{
+  background-color: hsl(192, 100%, 9%);
+  font-family: 'Open Sans';
+  display: flex;
+  gap: 10rem;
+  color: #fff;
+  top: -5rem;
+  align-items: center;
+  justify-content: center;
+  height: 35rem;
+  z-index: -1;
+  font-size: 1.1rem;
+  font-weight: 400;
+} 
+
+.tree-card{
+  margin-bottom: 30rem;
+}
+.logo-footer{
+  fill: white;
+  filter: invert(100%) sepia(97%) saturate(0%) hue-rotate(2deg)
+   brightness(101%) contrast(102%);
+   height: 2.6rem;
+   width: 13rem;
+}
+
+.first-row{
+  display:flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+address{
+  font-style: normal;
+  line-height: 1.4;
+}
+.mobile-phone{
+  font-style: normal;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.second-row{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: 'Open Sans';
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.third-row{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: 'Open Sans';
+}
+
+ion-icon {
+  font-size: 2.4rem;
+  color: white;
+ padding: 0.5rem;
+}
+
+ion-icon:hover,
+ion-icon:focus{
+  color:hsl(322, 100%, 66%);
+}
+
+h5{
+  font-weight: 400;
+
+}
+
+h5:hover,
+h5:focus{
+  text-decoration: underline;
+}
+.padding{
+  padding-right: 1rem;
+}
+.getstarted:hover,
+.getstarted:focus{
+  background-color: hsl(322, 100%, 80%);
+  color: #fff !important; 
+}
+
+.btn:hover,
+.btn:focus{
+  color: hsl(208, 11%, 55%);
+}
